@@ -1,0 +1,106 @@
+{
+  "input_prepared_foton_output": "sha256:1891f92d1f2ca2deb2e7ee7ce9c5345e4d5679a8ac0aee0a851921118f850232",
+  "n_cells_total": 5448,
+  "coarse_res": 0.05,
+  "coarse_n_clusters": 7,
+  "coarse_monocyte_cluster": "3",
+  "coarse_monocyte_n": 1060,
+  "leiden_flavor": "igraph",
+  "resolution_sweep": {
+    "0.1": {
+      "n_clusters": 10,
+      "mono_subclusters": [
+        "3",
+        "9"
+      ]
+    },
+    "0.15": {
+      "n_clusters": 11,
+      "mono_subclusters": [
+        "4",
+        "6",
+        "10"
+      ]
+    },
+    "0.2": {
+      "n_clusters": 12,
+      "mono_subclusters": [
+        "1",
+        "5",
+        "11"
+      ]
+    },
+    "0.3": {
+      "n_clusters": 13,
+      "mono_subclusters": [
+        "3",
+        "5",
+        "12"
+      ]
+    },
+    "0.5": {
+      "n_clusters": 14,
+      "mono_subclusters": [
+        "3",
+        "5",
+        "12"
+      ]
+    }
+  },
+  "chosen_fine_res": 0.1,
+  "monocyte_subclusters": {
+    "3": {
+      "n": 1004,
+      "CD14": 0.682,
+      "CD14_fracpos": 0.635,
+      "FCN1": 1.879,
+      "FCN1_fracpos": 0.942,
+      "S100A8": 1.535,
+      "S100A8_fracpos": 0.754,
+      "S100A9": 2.093,
+      "S100A9_fracpos": 0.86,
+      "LYZ": 2.882,
+      "LYZ_fracpos": 0.969,
+      "FCGR3A": 0.415,
+      "FCGR3A_fracpos": 0.283,
+      "MS4A7": 0.266,
+      "MS4A7_fracpos": 0.354,
+      "CDKN1C": 0.45,
+      "CDKN1C_fracpos": 0.37,
+      "call": "classical_CD14"
+    },
+    "9": {
+      "n": 56,
+      "CD14": 0.037,
+      "CD14_fracpos": 0.089,
+      "FCN1": 0.377,
+      "FCN1_fracpos": 0.339,
+      "S100A8": 0.118,
+      "S100A8_fracpos": 0.161,
+      "S100A9": 0.35,
+      "S100A9_fracpos": 0.304,
+      "LYZ": 2.817,
+      "LYZ_fracpos": 0.982,
+      "FCGR3A": 0.0,
+      "FCGR3A_fracpos": 0.0,
+      "MS4A7": 0.065,
+      "MS4A7_fracpos": 0.161,
+      "CDKN1C": 0.037,
+      "CDKN1C_fracpos": 0.071,
+      "call": "classical_CD14"
+    }
+  },
+  "markers_classical": [
+    "CD14",
+    "FCN1",
+    "S100A8",
+    "S100A9",
+    "LYZ"
+  ],
+  "markers_nonclassical": [
+    "FCGR3A",
+    "MS4A7",
+    "CDKN1C"
+  ],
+  "two_populations_resolved": false
+}
